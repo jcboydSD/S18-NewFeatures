@@ -32,8 +32,8 @@ const attendeesArray = (...attendees) => {
     return(attendees);
 };
 // create 2 arrays with conference attendees and log totals to console
-const session1 = attendeesArray('Ann Adams', 'Ann Smith', 'Ben Benson', 'Carl Cards', 'Daniel Dern', 'Emma Earnest', 'Frank Forrest');
-const session2 = attendeesArray('Ann Adams', 'Greg Grant', 'Harry Heber', 'Carl Cards', 'Emma Earnest', 'Jack Jones', 'Mary Marks', 'Ann Smith');
+const session1 = attendeesArray('Jay Boyd','Ann Adams', 'Ann Smith', 'Ben Benson', 'Carl Cards', 'Daniel Dern', 'Emma Earnest', 'Frank Forrest', 'Ian McKellen');
+const session2 = attendeesArray('Jay Boyd','Ann Adams', 'Greg Grant', 'Harry Heber', 'Carl Cards', 'Emma Earnest', 'Jack Jones', 'Ian McKellen', 'Mary Marks', 'Ann Smith', 'Neal Diamond');
 console.log('Number of attendees at session 1:', session1.length);
 console.log('Number of attendees at session 2:', session2.length);
 // combine all attendees using spread syntax and log array and total to console
